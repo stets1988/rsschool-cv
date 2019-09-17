@@ -1,8 +1,6 @@
 # I`m Stetsiuk Paul.
 ###### I`m a beginner web programmer. I want to start a career as a junior web developer at EPAM and after 5 years grow up to team lead.
-
 ***
-
 **![telegram: ](telegram2.png)[@stetsiuk_paul](https://teleg.run/stetsiuk_paul)** 
 **![viber: ](viber2.png)[+375295875588](viber://pa?chatURI=+375295875588)**
 **![skype: ](skype2.png)[paul.stets](skype:paul.stets)**
