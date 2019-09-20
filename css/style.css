@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 18px;
+}
+nav {
+	height: 50px;
+	text-align: center;
+	font-size: 16px;
+}
+nav ul li {
+	display: inline-block;
+	padding: 5px 5px 1px 5px;
+}
+nav ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	animation: myanim 2s infinite;
+}
+nav ul li:hover {
+	border-bottom: 2px solid #FFFFFF;
+	text-decoration: none;
+	transform: scale(1.1);
+}
+#home {
+	height: 400px;
+	background-image: url('../pict/header.png');
+	background-size: 100%;
+}
+h1, h4 {
+	margin: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.myself {
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+#contacts {
+	margin: 10px;
+	text-align: center;
+}
+#contacts a {
+	display: inline-block;
+}
+#contacts a:hover {
+	transform: scale(1.2);
+}
+#about_me {
+	height: 400px;
+	background-image: url(../pict/home.png);
+	background-size: 100%;
+}
+#about_me img {
+	float: left;
+	margin: 30px;
+	border-radius: 75px;
+}
+#about_me p {
+	text-align: justify;
+	color: #FFFFFF;
+	margin-left: 210px;
+	padding: 40px 20px 20px 0;
+}
+address {
+	width: 250px;
+	color: #FFFFFF;
+	margin-left: 210px;
+}
+address a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#education {
+	padding: 20px;
+	height: 200px;
+	background-color: rgba(122, 122, 122, 0.1);
+	background-size: 100%;
+	border-bottom: 1px solid #A7A7A7;
+}
+#experience {
+	padding: 20px;
+	height: 200px;
+	background-color: rgba(122, 122, 122, 0.1);
+	background-size: 100%;
+	border-bottom: 1px solid #A7A7A7;
+}
+#skills {
+	padding: 20px;
+	height: 200px;
+	background-color: rgba(122, 122, 122, 0.1);
+	background-size: 100%;
+	border-bottom: 1px solid #A7A7A7;
+}
+#additional_information {
+	padding: 20px;
+	height: 200px;
+	background-color: rgba(122, 122, 122, 0.1);
+	background-size: 100%;
+}
+.abbr {
+	display: inline-block;
+	width: 200px;
+}
+.abbr span {
+	padding: 10px;
+	margin: 20px;
+	border-bottom: 3px solid #00EFA9;
+}
+.right {
+	margin-left: 200px;
+	margin-top: -20px;
+}
+.right li {
+	list-style: none;
+    background: url(../pict/viber.png) no-repeat 0 4px;
+    background-size: 8px;
+    padding-left: 30px;
+}
+#btnhome {
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+}
+footer {
+	text-align: center;
+	background-color: rgba(122, 122, 122, 0.2);
+}
+footer h6{
+	color: #B1B1B1;
+}
+@keyframes myanim {
+from {color: white;}
+50% {color: black;}
+to {color: white;}
+}
